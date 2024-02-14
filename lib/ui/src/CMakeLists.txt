@@ -1,0 +1,16 @@
+SET(SOURCES screens/ui_InitScreen.c
+    screens/ui_MainScreen.c
+    screens/ui_ConnectedScreen.c
+    ui.c
+    components/ui_comp_hook.c
+    ui_helpers.c
+    ui_events.cpp
+    images/ui_img_burbujas_160x160_png.c
+    images/ui_img_logo_g2ej_105x156_png.c
+    images/ui_img_logo_ud_fjdc_058x090_png.c
+    images/ui_img_der_032x032_png.c
+    images/ui_img_foto_g2ej_064x064_png.c
+    images/ui_img_logo_aiot_157x105_png.c
+    images/ui_img_izq_032x032_png.c)
+
+add_library(ui ${SOURCES})
